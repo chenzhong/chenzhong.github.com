@@ -12,14 +12,14 @@ disqus_shortname: # disqus comment thread for post header options. ( leave blank
 google_analytics_id: # set tracking, UA-XXXX-Y.
 
 links:
-  - name:         About
+  - name:         关于我
     url:          /about
   - name:         Feed
     url:          /feed.xml
-  - name:         Blog
+  - name:         博客
     url:          http://chenzhong.cc
     external:     true
-  - name:         Email
+  - name:         邮箱
     url:          mailto:cedric_chenzhong@163.com
     external:     true
   - name:         GitHub
