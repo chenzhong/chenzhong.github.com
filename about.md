@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title:  关于我
 disqus: false
 ---
-
-# About Cedric
 
 - 姓名: 陈重 (Cedric)
 
