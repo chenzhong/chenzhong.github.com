@@ -6,7 +6,7 @@ pygments:         true
 title:            Cedric
 description:      因为兴趣, 所以coding!
 url:              # Site url.
-baseurl:          /
+baseurl:
 signoff:          Cedric # Your name.
 disqus_shortname: # disqus comment thread for post header options. ( leave blank if unwanted. )
 google_analytics_id: # set tracking, UA-XXXX-Y.
