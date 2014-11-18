@@ -7,10 +7,10 @@ title: 做一个属于自己的blog
 
 记录下部署jekyll的一些点滴。
 
-首先先搭建起jekyll博客，具体可以参照这篇文章进行搭建——[blogging\_with\_jekyll]("http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html", "blogging_with_jekyll")。
+首先先搭建起jekyll博客，具体可以参照这篇文章进行搭建——[blogging\_with\_jekyll](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)。
 
 搭建起来之后，样式不是特别的美观，阅读体验也相对一般，大家可以根据自己喜欢的博客样式，进行配置。
-以下以我的博客为例，我是参考了这个[博客]('http://chloerei.com/','blog')。
+以下以我的博客为例，我是参考了这个[博客](http://chloerei.com/,'blog')。
 
 首先clone代码
 
