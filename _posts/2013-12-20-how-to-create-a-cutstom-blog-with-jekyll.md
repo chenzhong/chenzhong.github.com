@@ -5,7 +5,7 @@ title: 做一个属于自己的blog
 ---
 
 
-最近把博客搞了一下，记录下部署jekyll的一些点滴。
+记录下部署jekyll的一些点滴。
 
 首先先搭建起jekyll博客，具体可以参照这篇文章进行搭建——[blogging\_with\_jekyll]("http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html", "blogging_with_jekyll")。
 
@@ -15,21 +15,18 @@ title: 做一个属于自己的blog
 首先clone代码
 
 ```
-git clone git clone git@github.com:insraq/insraq.github.com.git
+git clone https://github.com/chloerei/scribble.git
 ```
+修改下CNAME(将你的域名写入,如chenzhong.cc)
+
+修改下_config.yml, baseurl置为/, 其余信息替换成自己的个人信息即可。
+
+配置自己的dns, 创建两个A纪录
+
+	192.30.252.153
+	192.30.252.154
+
+创建一个CNAME的记录指向(github用户名).github.com
 
 
-第二步，将css, js复制黏贴到自己的blog项目中，并同时将_layout的文件夹进行替换。
-
-第三步，修改default.html文件的一些相关信息。
-
-```html
-<div class="header">
-	<h1><a href="/">Cedric</a></h1>
-	<h2>Coding is my life style</h2>   
-</div>
-```
-
-替换about.html的信息。配置CAME，将里面的配置信息修改成自己的信息。
-
-最后，提交代码到github上。这样博客就搞定了，非常简单。
+最后，提交代码到github上, 等待10分钟即可。这样博客就搞定了，非常简单。
