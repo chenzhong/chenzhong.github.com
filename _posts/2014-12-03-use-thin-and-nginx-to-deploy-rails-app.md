@@ -83,6 +83,7 @@ title: 使用thin和nginx部署rails应用
 > 6 创建thin.yml在config目录下
 > 
 > thin.yml 配置文件如下：
+
 > ```
 > #thin config
 > #user: www #指定项目运行用户
