@@ -82,27 +82,27 @@ title: 使用thin和nginx部署rails应用
 >
 > 6 创建thin.yml在config目录下
 > 
-> > thin.yml 配置文件如下：
-> > ```
-> > #thin config
-> > #user: www #指定项目运行用户
-> > #group: www #指定项目运行用户组
-> > pid: tmp/pids/thin.pid
-> > timeout: 30
-> > wait: 30
-> > log: log/thin.log
-> > max_conns: 1024
-> > require: []
-> > environment: production
-> > #environment: development 指定运行环境
-> > max_persistent_conns: 512
-> > servers: 3 #指定服务数，比如指定8000端口，那么会起8000-8002端口服务
-> > threaded: false
-> > daemonize: true #是否后台运行
-> > #socket: tmp/sockets/thin.sock
-> > chdir: /data/htdocs/xxx.dev.com
-> > tag: thin-server #ps命令搜索标签名称
-> > ```
+> thin.yml 配置文件如下：
+> ```
+> #thin config
+> #user: www #指定项目运行用户
+> #group: www #指定项目运行用户组
+> pid: tmp/pids/thin.pid
+> timeout: 30
+> wait: 30
+> log: log/thin.log
+> max_conns: 1024
+> require: []
+> environment: production
+> #environment: development 指定运行环境
+> max_persistent_conns: 512
+> servers: 3 #指定服务数，比如指定8000端口，那么会起8000-8002端口服务
+> threaded: false
+> daemonize: true #是否后台运行
+> #socket: tmp/sockets/thin.sock
+> chdir: /data/htdocs/xxx.dev.com
+> tag: thin-server #ps命令搜索标签名称
+> ```
 > 
 > 7 thin start -p 8000 -C config/thin.yml #启动thin服务
 > 
