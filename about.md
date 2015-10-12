@@ -6,7 +6,7 @@ disqus: false
 
 - 姓名: 陈重 (Cedric)
 
-- 年龄: 30
+- 年龄: 32
 
 - 城市: 宁波
 
@@ -29,7 +29,7 @@ disqus: false
 
 - 常用开发工具： vim / sublime / eclipse / git 
 
-- 常用设计工具： AI(目前正在学sketch)
+- 常用设计工具： sketch / AI 
 
 
 
@@ -41,7 +41,9 @@ disqus: false
 
 - 2010－2012年，宁波罗蒙电子商务有限公司，主要从事需求分析与产品设计。参与了主题乐园信息化管理系统，shoppingmall商家信息管理系统等设计、开发。
 
-- 2013年至今，宁波[有享网](http://www.yofogo.com)，是一个互联网电商平台，主要从事需求分析、详细设计、电商产品研究。
+- 2013-2015.3，宁波[有享网](http://www.yofogo.com)，是一个互联网电商平台，主要从事需求分析、详细设计、电商产品研究。
 
-- 2012年开始接触ruby，期间做了[西瓜社](http://www.xiguashe.com)([代码](https://github.com/wikimo/xiguashe)), [lin-pei](http://www.ling-pei.com)([代码](http://git.oschina.net/chenzhong/lin_pei_offical))
+- 2015.3-至今，成立程墨软件设计工作室(cmcm.us)，主做APP & Wechat等软件开发及设计
+
+
 
